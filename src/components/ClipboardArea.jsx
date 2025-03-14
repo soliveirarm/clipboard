@@ -54,6 +54,7 @@ export function ClipboardArea({
         className="border-b-2 border-indigo-500 p-2 text-lg rounded shadow-md"
         value={content}
         onChange={updateContent}
+        onDoubleClick={copyText}
       />
       <button
         onClick={copyText}
