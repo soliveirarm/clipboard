@@ -7,6 +7,7 @@ export function CreateClipboardArea({ onSubmit, newArea, setNewArea }) {
         className="placeholder-slate-600 border-b-2 border-indigo-600 p-4 rounded-md shadow w-full text-center"
         value={newArea}
         onChange={(e) => setNewArea(e.target.value)}
+        autoFocus
       />
     </form>
   )
